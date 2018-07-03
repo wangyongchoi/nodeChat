@@ -2,7 +2,7 @@
 ---
 
 ## HOW TO USE
-```js
-npm install
-node server.js
+```bash
+$ npm install
+$ node server.js
 ```
