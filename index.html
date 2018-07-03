@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>ALPS RANDOM CHAT</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="client.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body style="font-family:Verdana; background-image: url('assets/img/background.jpg'); min-height: 100%; background-size: cover;">
+  <div class="container">
+        <div class="row " style="padding-top:40px;">
+          <br /><br />
+          <div class="col-md-8">
+            <div class="panel panel-info" style="opacity: 0.95;">
+              <div class="panel-heading">
+                CHAT HISTORY
+              </div>
+              <div id="chatListPanel" class="panel-body" style="height:500px; OVERFLOW-Y:auto; word-wrap: break-word;">
+                <ul class="media-list" id="chatInput">
+                </ul>
+            </div>
+            <div class="panel-footer">
+                <div class="input-group">
+                  <input type="text" id='txtChat' name="txtChat" class="form-control" placeholder="Enter Message" />
+                  <span class="input-group-btn">
+                      <button class="btn btn-info" type="button" style="visibility:hidden;">SEND</button>
+                  </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-primary"  style="opacity: 0.95;">
+          <div class="panel-heading">
+             USER HISTORY
+          </div>
+          <div class="panel-body" style="height:500px; OVERFLOW-Y:auto; word-wrap: break-word">
+              <ul class="media-list">
+            </ul>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
