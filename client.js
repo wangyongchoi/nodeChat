@@ -1,5 +1,5 @@
 window.onload = function() {
-	const socket = io.connect("ws://127.0.0.1:3000");
+	const socket = io.connect("ws://10.106.151.60:3000");
 	const list = document.getElementById("chatInput");
 	const text = document.getElementById("txtChat");
 	const listPanel = document.getElementById("chatListPanel");
