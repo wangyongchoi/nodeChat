@@ -1,5 +1,4 @@
 # Wangyong Friends Chat
----
 
 ## HOW TO USE
 ```bash
